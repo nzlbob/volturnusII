@@ -1,0 +1,65 @@
+{
+    "id": "volturnusII",
+    "title": "Module Content - Volturnus II",
+    "description": "VTT Content Module Nest for Alternity 1998 Submitted by uncle_jimbo Setting : Star*Drive Progress Level: 7. A mini-scenario for Star*Drive, suitable for any chosen star system. https://www.alternityrpg.net/resources/1702/original/nest_final.pdf",
+    "authors": [
+      {
+      "name": "bob"
+      }
+      ],
+    "version": "0.01",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
+
+    "packs": [
+ {	
+  "label": "Adventure",
+  "type": "Adventure",
+  "name": "adventure",
+  "path": "packs/adventure",  
+     "system": "Alternityd100",
+  
+    "ownership" : {
+      "ASSISTANT" : "OWNER",
+      "GAMEMASTER": "OWNER",
+      "NONE":  "NONE",
+      "PLAYER": "NONE",
+      "TRUSTED":"NONE"
+  }
+      }
+    ],
+
+    "relationships": {
+        "systems": [{
+          "id": "Alternityd100",
+          "type": "system",
+          "manifest": "",
+          "compatibility": {
+            "verified": "0.0.0"
+          }
+        }]
+      },
+  
+      "url": "https://github.com/nzlbob/volturnusII",
+      "manifest": "https://raw.githubusercontent.com/nzlbob/volturnusII/main/module.json",
+      "download": "https://github.com/nzlbob/volturnusII/archive/refs/heads/main.zip",
+      "media": [
+        {
+            "type": "setup",
+            "url": "modules/alt_core/images/VTTlogo3.png",
+            "thumbnail": "modules/alt_core/images/VTTlogo3.png"
+        },
+        {
+          "type": "cover",
+          "url": "https://raw.githubusercontent.com/nzlbob/alt_core/main/images/VTTlogo3.png",
+          "name": "Alternityd100 Adventure content"
+      }
+  
+      ]
+  
+  
+  
+  
+    }
