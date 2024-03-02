@@ -7,7 +7,7 @@
       "name": "bob"
       }
       ],
-    "version": "0.05",
+    "version": "0.06",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
