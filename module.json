@@ -7,10 +7,10 @@
       "name": "bob"
       }
       ],
-    "version": "0.07",
+    "version": "0.08",
     "compatibility": {
-      "minimum": "11",
-      "verified": "11"
+      "minimum": "12",
+      "verified": "12"
     },
 
     "packs": [
